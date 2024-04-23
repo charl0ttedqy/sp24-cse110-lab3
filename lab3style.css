@@ -72,9 +72,9 @@ section#attendance{
   grid-template-columns: auto;
   grid-template-rows: auto;
   grid-template-areas: 
-  "first"
-  "second"
-  "third fourth fifth";
+  "title title title title title"
+  "person1 person1 person2 person2"
+  "person3 person3 person4 peroson4";
 }
 /* positions */
 section#agenda{
