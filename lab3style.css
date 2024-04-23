@@ -44,7 +44,7 @@ audio{
   margin-right: auto;
   border-style: solid;
   border-color: rgb(50,82,171);
-  max-width: fit-content;
+  max-width: none;
 }
 /* display, border, width */
 video{
