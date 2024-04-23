@@ -10,5 +10,3 @@ assignees: ''
 ## Issue Description
 Describe your issue here
 
-## TODO
-* todo list here
