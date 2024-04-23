@@ -86,7 +86,7 @@ section#miscellaneous{
 }
 /* display none */
 form{
-  display: none;
+  display: block;
 }
 /* pseudo class */
 button:hover{
