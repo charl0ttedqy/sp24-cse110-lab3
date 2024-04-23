@@ -70,6 +70,9 @@ section#attendance{
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: auto;
+  grid-template-areas: 
+    "first"
+    "second third fourth"
 }
 /* positions */
 section#agenda{
