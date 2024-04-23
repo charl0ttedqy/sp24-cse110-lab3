@@ -72,7 +72,7 @@ section#attendance{
   grid-template-rows: auto;
   grid-template-areas: 
     "first"
-    "second third fourth"
+    "second third fourth";
 }
 /* positions */
 section#agenda{
