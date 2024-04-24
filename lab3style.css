@@ -95,6 +95,8 @@ section#agenda{
   position: relative;
   display: flex;
   flex-direction: column;
+  flex-flow: wrap;
+  row-gap: 5px;
   justify-content: center;
   align-items: center;
 }
