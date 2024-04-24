@@ -69,7 +69,7 @@ section#attendance{
   min-width: auto;
   display: grid;
   justify-items: center;
-  grid-template-columns: fit-content;
+  grid-template-columns: auto;
   grid-template-rows: auto;
   grid-template-areas: none;
   grid-gap: 5px;
@@ -78,7 +78,7 @@ ul{
   width: 100%;
   margin-right: 1.5cm;
   display: grid;
-  grid-template-columns: fit-content;
+  grid-template-columns: auto;
   justify-items: center;
   grid-row-gap: 5px;
 }
@@ -116,7 +116,7 @@ section#unfinished{
     list-style-type: none;
     li{
       padding: 10px;
-      border-radius: 5px;
+      border-radius: 15px;
       margin: 5px;
       background-color: #C5DBEB;
     }
@@ -126,7 +126,7 @@ section#unfinished{
 
 /* general sibling combinator, adjacent sibling combinator, combining two sectors */
 section#new{
-  position: static;
+  position: relative;
 }
 .new-item + .new-item{
   margin-top: 5px;
@@ -143,7 +143,7 @@ div.new-item{
 }
 
 section#miscellaneous{
-  position: static;
+  position: relative;
 }
 /* display none */
 form{
