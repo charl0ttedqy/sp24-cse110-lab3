@@ -1,31 +1,29 @@
 /* lab3 css file */
 
-/* background color */
-:root {
+/* universal, background color */
+*{
   --main-color: #6495ED;
 }
-/* universal, background color, RGB, fallback, margin, font */
-*{
-  body {
-    background-color: var(--main-color, rgb(50,82,171));
-    margin-left: 0.5cm;
-    margin-right: 0.5cm;
-    margin-top: 0.5cm;
-    margin-bottom: 0.5cm;
-  }
+/* background color, RGB, fallback, margin, font */
+body {
+  background-color: var(--main-color, rgb(50,82,171));
+  margin-left: 0.5cm;
+  margin-right: 0.5cm;
+  margin-top: 0.5cm;
+  margin-bottom: 0.5cm;
 }
 /* padding, text align */
 header{
   padding: 1rem;
   text-align: center;
 }
-/* color name, text decoration */
-header h1{
+/* color name, text decoration, child combinator*/
+div > h1{
   color: navy;
   text-decoration: underline;
 }
-/* hsl color */
-header h2{
+/* hsl color, descendant combinator */
+main h2{
   color: hsl(208, 27%, 50%);
 }
 /* border, display, height */
@@ -126,6 +124,7 @@ form{
 button:hover{
   color: color(display-p3 0.814 0.322 0.496);
 }
+/* media */
 
   
   
