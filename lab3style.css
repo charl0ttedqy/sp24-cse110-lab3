@@ -69,7 +69,7 @@ section#attendance{
   min-width: auto;
   display: grid;
   justify-items: center;
-  grid-template-columns: auto;
+  grid-template-columns: fit-content;
   grid-template-rows: auto;
   grid-template-areas: none;
   grid-gap: 5px;
@@ -79,12 +79,12 @@ ul{
   margin-right: 1.5cm;
   display: grid;
   grid-template-columns: fit-content;
+  justify-items: center;
   grid-row-gap: 5px;
 }
 li{
-  margin-right: 1.5cm;
   background-color: #B0C4DE;
-  padding: 5px;
+  padding: 10px;
   border-radius: 5px;
   grid-row-gap: 5px;
 }
