@@ -60,7 +60,7 @@ section{
   display: grid;
   gap: 10px;
 }
-/* padding and min width */
+/* padding, min width, grid*/
 section#attendance{
   padding-left: 2%;
   padding-right: 2%;
@@ -76,6 +76,14 @@ section#attendance{
   "person1 person1 person2 person2"
   "person3 person3 person4 peroson4";
 }
+h2{
+  grid-area: title;
+}
+span:nth-of-type(1) {grid-area: person1}
+span:nth-of-type(2) {grid-area: person2}
+span:nth-of-type(3) {grid-area: person3}
+span:nth-of-type(4) {grid-area: person4}
+
 /* positions */
 section#agenda{
   position: relative;
