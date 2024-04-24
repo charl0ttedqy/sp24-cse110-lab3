@@ -93,16 +93,19 @@ li{
 section#agenda{
   position: relative;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   row-gap: 5px;
   justify-content: center;
   align-items: center;
 }
 .agenda-item{
-  background-color: #5F9EA0;
+  background-color: #D8BFD8;
   padding: 10px;
   border-radius: 5px;
-  margin-bottom: 5px;
+  margin: 5px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 section#unfinished{
   position: static;
