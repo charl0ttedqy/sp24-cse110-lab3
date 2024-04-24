@@ -97,10 +97,6 @@ section#agenda{
   row-gap: 5px;
   justify-content: center;
   align-items: center;
-  
-  & div + div{
-    margin-left: 5px;
-  }
 }
 .agenda-item{
   background-color: #D8BFD8;
@@ -116,8 +112,18 @@ section#agenda{
 section#unfinished{
   position: static;
 }
+/* general sibling combinator, adjacent sibling combinator, combining two sectors */
 section#new{
   position: static;
+}
+.new-item + .new-item{
+  margin-top: 5px;
+}
+.new-item ~ .new-item {
+  border-top: 1px solid navy; 
+}
+div.new-item{
+  background-color: #1679AB;
 }
 section#miscellaneous{
   position: static;
