@@ -162,18 +162,17 @@ button:hover{
   }
   .agenda-item {
     width: auto;
-    margin: 10px 0;
+    margin: 0;
   }
  /* fix form */
   form {
     padding: 10px;
-    
     form input,
     form textarea,
     form select,
     form button {
-      width: calc(100% - 20px); 
-      margin: 5px 0; 
+      width: auto; 
+      margin: 0; 
     }
 
 }
