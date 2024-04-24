@@ -24,7 +24,7 @@ div > h1{
 }
 /* hsl color, descendant combinator */
 main h2{
-  color: hsl(208, 27%, 50%);
+  color: hsl(196, 100%, 33%);
 }
 /* border, display, height */
 img{
@@ -97,6 +97,10 @@ section#agenda{
   row-gap: 5px;
   justify-content: center;
   align-items: center;
+  
+  & div + div{
+    margin-left: 5px;
+  }
 }
 .agenda-item{
   background-color: #D8BFD8;
@@ -107,6 +111,8 @@ section#agenda{
   align-items: center;
   text-align: center;
 }
+
+
 section#unfinished{
   position: static;
 }
