@@ -108,10 +108,20 @@ section#agenda{
   text-align: center;
 }
 
-
+/* nested */
 section#unfinished{
   position: static;
+
+  ol{
+    list-style-type: none;
+    li{
+      padding: 5px;
+      background-color: #C5DBEB;
+    }
+  }
+      
 }
+
 /* general sibling combinator, adjacent sibling combinator, combining two sectors */
 section#new{
   position: static;
@@ -120,11 +130,16 @@ section#new{
   margin-top: 5px;
 }
 .new-item ~ .new-item {
-  border-top: 1px solid navy; 
+  border-top: 1px dotted navy; 
 }
 div.new-item{
-  background-color: #1679AB;
+  background-color: #F5E8DD;
 }
+/* has() */
+.new-item:has(a){
+  background-color: #C5DBEB;
+}
+
 section#miscellaneous{
   position: static;
 }
