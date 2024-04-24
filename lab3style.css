@@ -69,18 +69,25 @@ section#attendance{
   min-width: auto;
   display: grid;
   justify-items: center;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: auto;
   grid-template-rows: auto;
   grid-gap: 10px;
 }
 ul{
   width: 100%;
   margin: 0;
-  grid-template-columns: repeat(2, 1fr);
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 10px;
+}
+li{
+  background-color: navy;
+  padding: 10px;
+  border-radius: 5px;
 }
 
 
-/* positions */
+/* positions, flex*/
 section#agenda{
   position: relative;
   display: flex;
