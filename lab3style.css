@@ -76,12 +76,13 @@ section#attendance{
 }
 ul{
   width: 100%;
-  margin: 0;
+  margin: 1cm;
   display: grid;
   grid-template-columns: auto;
   grid-gap: 10px;
 }
 li{
+  margin: 1cm;
   background-color: #B0C4DE;
   padding: 10px;
   border-radius: 5px;
