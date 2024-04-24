@@ -115,7 +115,9 @@ section#unfinished{
   ol{
     list-style-type: none;
     li{
-      padding: 5px;
+      padding: 10px;
+      border-radius: 5px;
+      margin: 5px;
       background-color: #C5DBEB;
     }
   }
