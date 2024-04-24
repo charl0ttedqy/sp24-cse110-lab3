@@ -86,7 +86,6 @@ li{
   background-color: #B0C4DE;
   padding: 10px;
   border-radius: 5px;
-  grid-row-gap: 5px;
 }
 
 
@@ -95,10 +94,15 @@ section#agenda{
   position: relative;
   display: flex;
   flex-direction: column;
-  flex-flow: wrap;
   row-gap: 5px;
   justify-content: center;
   align-items: center;
+}
+.agenda-item{
+  background-color: #5F9EA0;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 5px;
 }
 section#unfinished{
   position: static;
